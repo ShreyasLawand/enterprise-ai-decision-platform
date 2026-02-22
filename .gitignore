@@ -1,0 +1,20 @@
+# Environments
+venv/
+env/
+.env
+
+# Database and Vector Store
+postgres_data/
+chroma_db/
+*.db
+*.sqlite3
+
+# Machine Learning tracking & cache
+mlruns/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ml_engine/models/*.pkl
+
+# OS generated files
+.DS_Store
